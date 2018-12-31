@@ -39,7 +39,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <h2>FREE PHOTO SEARCH</h2>
+        <h2>FREE IMAGE SEARCH</h2>
         <div className="searchbar">
           <Searchbar
             onSubmit={this.onSearchSubmit}
