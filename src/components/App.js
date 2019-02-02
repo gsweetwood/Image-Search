@@ -50,7 +50,7 @@ class App extends React.Component {
             Found {this.state.imageCount} items! You are on page{" "}
             {this.state.pageNum}.
           </div>
-          <button onClick={this.nextPage}>Next ></button>
+          <button onClick={this.nextPage}>Next page ></button>
           <ImageList images={this.state.images} />
         </div>
       </div>

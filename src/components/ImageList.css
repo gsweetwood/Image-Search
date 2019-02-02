@@ -8,4 +8,14 @@
 .image-list img {
   width: 250px;
   grid-row-end: span 2;
+  transition: all 1s;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+.figDescription {
+  color: white;
+  display: none;
 }
